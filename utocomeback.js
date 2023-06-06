@@ -1,6 +1,7 @@
 var audioButton = document.getElementById('audioButton');
 var audioPlayer = document.getElementById('audioPlayer');
 var respectCounterSpan = document.getElementById("RespectCounter");
+document.getElementById("audioButton").disabled = true;
 var respects = 0; //Initialized as -2 to check that firebase is working when it was 0
 
 audioButton.addEventListener('click', function() {
@@ -71,6 +72,7 @@ async function retrieveRespectCounter()
             respects = doc.data().Count;
         });
         respectCounterSpan.textContent = "Respect paid: " + respects;
+        document.getElementById("audioButton").disabled = false;
     }
     catch(error) {
         console.error("Error getting documents: ", error);
@@ -82,6 +84,5 @@ async function initializePage()
 {
     respectCounterSpan.textContent = "Counting paid respects..."
     await retrieveRespectCounter();
-    console.log(respects);
 }
 window.addEventListener("load", initializePage);
