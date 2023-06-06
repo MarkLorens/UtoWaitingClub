@@ -1,0 +1,102 @@
+body
+{
+    margin:0;
+    color: #445fd4;
+    font-weight: bold;
+    font-family: "Noto Sans JP", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ヒラギノ角ゴ ProN", sans-serif; 
+}
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    position:relative;
+
+    background-color: #f1f8fd;
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 56px, #e0effa 56px, #e0effa 153px);
+
+    display: grid;
+}
+.container::before
+{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-image: url('Assets/UtoCuto.gif');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+#video
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; /* Adjust the opacity value as needed */
+    z-index: -1; /* Place the video player behind other elements */
+}  
+#counter
+{
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 25px;
+}
+.row
+{
+    width: 100vw;
+}
+ul
+{
+    padding: 0;
+    margin:0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.bopreverse
+{
+    transform: scaleX(-1);
+}
+#content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:-200px
+}
+.content-item
+{
+    display: block;
+}
+#audioButton
+{
+    border: 0;
+    font-family: inherit;
+    font-size: inherit;
+    color:white;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: #445fd4;
+    width: 200px;
+    height: 75px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+.content-footer
+{
+    position: absolute;
+    bottom: 0;
+}
+a
+{
+    text-decoration: none;
+    color:inherit;
+}
