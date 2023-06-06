@@ -41,7 +41,7 @@ body
     opacity: 0.5; /* Adjust the opacity value as needed */
     z-index: -1; /* Place the video player behind other elements */
 }  
-#counter
+#DaysCounter
 {
     margin-top: 10px;
     padding: 20px;
