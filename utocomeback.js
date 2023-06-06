@@ -1,7 +1,7 @@
 var audioButton = document.getElementById('audioButton');
 var audioPlayer = document.getElementById('audioPlayer');
 var respectCounterSpan = document.getElementById("RespectCounter");
-var respects = -2; //Initialized as -2 to check that firebase is working when it was 0
+var respects = 0; //Initialized as -2 to check that firebase is working when it was 0
 
 audioButton.addEventListener('click', function() {
     audioPlayer.play();
