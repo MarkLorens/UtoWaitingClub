@@ -11,7 +11,7 @@ audioButton.addEventListener('click', function() {
 
 function updateDaysGone()
 {
-    var startingDate = new Date("2023-12-13T08:00:00Z");
+    var startingDate = new Date("2023-12-19T08:00:00Z");
     var currentDate = new Date();
     startingDate.setUTCHours(0, 0, 0, 0);
     currentDate.setUTCHours(0, 0, 0, 0);
