@@ -20,7 +20,7 @@ function updateDaysGone()
     var daysGone = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
 
     var daysGoneSpan = document.getElementById("DaysCounter");
-    daysGoneSpan.textContent += "Days Gone: " +daysGone;
+    daysGoneSpan.textContent += "She's back, guys!";
 }
 
 function updateRespectCounter()
