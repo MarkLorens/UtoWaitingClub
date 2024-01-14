@@ -1,5 +1,6 @@
 # UtoWaitingClub
-I miss Uto
+~~I miss Uto~~
+Uto is back and thriving. Go and support our local tenshi!
 
 ## Project Description
 This project was done to fight a man's loneliness. A simple single-page web app that keeps track of how long since the VTuber Amatsuka Uto last stream. No YouTube API was used, the last stream time is written manually.
