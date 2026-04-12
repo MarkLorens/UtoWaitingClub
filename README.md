@@ -1,7 +1,8 @@
 # UtoWaitingClub
 ~~I miss Uto~~
 ~~Uto is back and thriving. Go and support our local tenshi!~~
-Uto is back and thriving under a different channel name in Twitch, [show her love](https://www.twitch.tv/kirafuwa_)!
+~~Uto is back and thriving under a different channel name in Twitch, [show her love](https://www.twitch.tv/kirafuwa_)!~~
+Uto is back for real this time under her original name. We're so back, lads.
 
 ## Project Description
 This project was done to fight a man's loneliness. A simple single-page web app that keeps track of how long since the VTuber Amatsuka Uto last stream. No YouTube API was used, the last stream time is written manually.
