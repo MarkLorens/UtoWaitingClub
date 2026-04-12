@@ -1,7 +1,7 @@
 # UtoWaitingClub
-~~I miss Uto~~\n
-~~Uto is back and thriving. Go and support our local tenshi!~~\n
-~~Uto is back and thriving under a different channel name in Twitch, [show her love](https://www.twitch.tv/kirafuwa_)!~~\n
+~~I miss Uto~~<br>
+~~Uto is back and thriving. Go and support our local tenshi!~~<br>
+~~Uto is back and thriving under a different channel name in Twitch, [show her love](https://www.twitch.tv/kirafuwa_)!~~<br>
 Uto is back for real this time under her original name. We're so back, lads.
 
 ## Project Description
